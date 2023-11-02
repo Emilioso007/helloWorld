@@ -8,16 +8,20 @@ public class App extends PApplet {
 
     public void settings() {
         size(500, 500);
+        
     }
 
     public void setup() {
         background(0);
+        frameRate(60);
     }
 
     public void draw() {
-        stroke(255);
-        if (mousePressed) {
-            line(mouseX, mouseY, pmouseX, pmouseY);
-        }
+        
+        background(0);
+        
+        fill(0,0,255);
+        rect(100, 100,100,100);
+
     }
 }
